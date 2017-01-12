@@ -1,0 +1,48 @@
+/* Write your styles */
+/*
+	Note: For Mobile Phone!!!
+*/
+@media only screen and (max-width: 640px) {
+	.login {
+		margin: 0;
+		padding: 0;
+		border:0;
+	}
+	.ads{
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 750px) {
+	.login {
+		margin: 0;
+		padding: 0;
+		border:0;
+	}
+	.ads {
+		margin: 0;
+		padding: 0;
+		border: 0;
+	}
+	.ads-pic {
+		width: 100%;
+	}
+}
+
+@media only screen and (min-width: 751px) {
+	.login {
+		margin-top: 20px;
+		padding-top: 30px;
+		padding-bottom: 40px;
+		margin-bottom: 25px;
+		border: 1px solid #ddd;
+		border-radius: 3px;
+	}
+	.ads {
+		margin-top: 20px;
+	}
+	.ads-pic {
+		width: 100%;
+	}
+
+}

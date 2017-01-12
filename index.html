@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!-- saved from url=(0023)http://mail.haoki.cn/# -->
+<html class="js cssanimations"><head lang="en"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <title>邮箱登陆 | haoki.cn</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="Cache-Control" content="no-siteapp">
+    <link href="css/favicon.png"mce_href="css/favicon.png" rel="bookmark" type="image/x-icon" />
+  <link href="css/favicon.png" mce_href="css/favicon.png" rel="icon" type="image/x-icon" />
+  <link href="css/favicon.png" mce_href="css/favicon.png" rel="shortcut icon" type="image/x-icon" />
+
+  <link rel="stylesheet" href="css/amazeui.min.css">
+  <link rel="stylesheet" href="css/app.css">
+  <script src="css/mail.js" type="text/javascript"></script>
+  <script src="css/jquery.min.js" type="text/javascript"></script>
+  <script src="css/amazeui.min.js" type="text/javascript"></script>
+  <script src="css/amazeui.ie8polyfill.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+
+  <header class="am-topbar am-topbar-inverse">
+    <div class="am-container">
+      <h1 class="am-topbar-brand">
+        <a href="http://mail.haoki.cn/#">haoki mail</a>
+      </h1>
+      <button class="am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-success am-show-sm-only" data-am-collapse="{target: &#39;#doc-topbar-collapse&#39;}"><span class="am-sr-only">导航切换</span> <span class="am-icon-bars"></span></button>
+
+      <div class="am-collapse am-topbar-collapse am-topbar-right" id="doc-topbar-collapse">
+        <ul class="am-nav am-nav-pills am-topbar-nav">
+          <li><a href="http://www.haoki.cn/">主站</a></li>
+          <li><a href="http://video.haoki.cn/">视频</a></li>
+          <li class="am-active"><a href="http://mail.haoki.cn/#">邮箱</a></li>
+        </ul>
+
+      </div>
+    </div>
+  </header>
+
+  <div class="am-g am-g-fixed">
+    <div class="am-u-lg-7 am-u-md-7 ads">
+      <img src="css/zuo.png" class="ads-pic">
+    </div>
+    
+    <div class="am-u-lg-5 am-u-md-5 login">
+      <div style="margin-left:auto; margin-right:auto; text-align: center;">
+        <a href="http://www.haoki.cn/">
+          <img src="css/logo.png" style="max-width: 100%;">
+        </a>
+      </div>
+      <h3>登录</h3>
+      <hr>
+      <form name="login" method="post" action="https://exmail.qq.com/cgi-bin/login" target="_blank" class="am-form" onsubmit="return checkInput()">
+        <input type="hidden" name="firstlogin" value="false">
+        <input type="hidden" name="errtemplate" value="dm_loginpage">
+        <input type="hidden" name="aliastype" value="other">
+        <input type="hidden" name="dmtype" value="bizmail">
+        <input type="hidden" name="p" value="">
+        <div class="am-input-group">
+          <span class="am-input-group-label"><i class="am-icon-user am-icon-fw"></i></span>
+          <input type="text" name="uin" id="uin" value="" placeholder="Username" class="am-form-error am-form-feedback">
+          <span class="am-input-group-label">@haoki.cn</span>
+          <input type="hidden" name="domain" value="haoki.cn">
+        </div>
+        <br>
+        <div class="am-input-group">
+          <span class="am-input-group-label"><i class="am-icon-lock am-icon-fw"></i></span>
+          <input type="password" name="pwd" id="password" value="" placeholder="Password">
+        </div>
+        <br>
+        <div class="am-cf">
+          <input type="submit" name="" value="登 录" class="am-btn am-btn-primary am-btn-sm am-fl">
+          <a href="https://exmail.qq.com/cgi-bin/readtemplate?check=false&amp;t=bizmail_orz" target="_blank" value="忘记密码 ^_^? " class="am-btn am-btn-default am-btn-sm am-fr">忘记密码 ^_^? </a>
+        </div>
+      </form>
+    </div>
+  </div>
+  
+  <footer class="am-footer am-footer-one">
+    <hr>
+    <p>© 2017 haoki.cn</p>
+  </footer>
+
+
+</body></html>
